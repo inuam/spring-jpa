@@ -16,3 +16,4 @@ CREATE TABLE customer_user (
     loyalty_points INT,
     CONSTRAINT fk_customer FOREIGN KEY (id) REFERENCES user_entity(id)
 );
+
